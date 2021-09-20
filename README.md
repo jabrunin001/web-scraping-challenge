@@ -1,7 +1,4 @@
-Mission to Mars
-mission_to_mars
-
-In this assignment, I build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what I did.
+In this assignment, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what I did.
 
 Part 1 - Scraping
 Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
@@ -19,12 +16,3 @@ Mars Hemispheres
 Scraped the USGS Astrogeology site here to obtain high resolution images for each of Mar's hemispheres.
 Part 2 - MongoDB and Flask Application
 Used MongoDB with Flask templating to create an HTML page that displays all of the information that was scraped from the URLs above.
-
-final_app_part1.png final_app_part2.png
-
-Tech Stack
-Used Splinter to navigate the sites when needed and BeautifulSoup to help find and parse out the necessary data.
-
-Used Pymongo for CRUD applications for the database.
-
-Used Bootstrap to structure the HTML template.
